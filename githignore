@@ -1,0 +1,135 @@
+# created https://www.toptal.com/developers/gitignore/api/c,c++,git,windows,linux,visualstudiocode
+# edit https://www.toptal.com/developers/gitignore?templates=c,c++,git,windows,linux,visualstudiocode
+
+## C ##
+# prereq
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompl headers
+*.gch
+*.pch
+
+# libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# shared obj.
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# debug files
+*.dSYM/
+*.su
+*.ibd
+*.pdb
+
+# Mod compile results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Myfile.old
+dkms.conf
+
+# C++ #
+# Compiled Obj. files
+*.slo
+
+# fortran module files
+*.mod
+*.smod
+
+# compiled static lib.
+*.lai
+
+# gith #
+*.orig
+
+# git is created when using merge tools to resolve conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# LINUX #
+.fuse_hidden*
+# KDE du=irectory preferences
+.directory
+.Trash-*
+# .nfs files created when open file is removes but accessed
+.nfs*
+
+# VisualSTCODE #
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# local history for VSCode
+.history/
+
+# built VSCode extensions
+*.vsix
+
+#VSCode patch#
+.history
+.ionide
+
+# WINDOWS #
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# dump file
+*.stackdump
+
+# fold conf file
+[Dd]esktop.ini
+
+# recycle bin used file shares
+$RECYCLE.BIN/
+
+# wind installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# win shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,git,windows,linux,visualstudiocode
+startcpp.exe
+
